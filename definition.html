@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Fahad Bin Alam">
+    <title>Solar Powered Energy Storage System Cost Estimation</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html">Solar Powered Energy Storage System Cost Estimation</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                <a class="nav-link" href="definition.html">Definitions</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="instruction.html">Instructions</a>
+                </li>         
+            </ul>
+        </div>
+    </nav>
+    <br>
+    <ol class="list">
+        <Li> <h6> Design Power Capacity Required </h6>
+            <p>
+                Design Power Capacity is maximum power output needed for the design project under ideal conditions. It is measured in Kilowatt or Megawatt.
+            </p>
+        </Li>
+        <Li><h6> Operations Hours </h6>
+            <p>
+                Operations Hours is the time in which the power will be supplied from Energy storage system to building. It varies from user need. Noramally two to eight hours.
+            </p>
+        </Li>
+        <Li><h6> Depth of Dischatge </h6>
+            <p>
+                Depth of Dischatge (DoD) refers to how much energy is cycled into and out of the battery on a given cycle, expressed as a percentage of the total capacity of the battery. Although this varies cycle to cycle, the maximum depth of discharge for lead acid batteries is typically at or below 50%. For Lithium ion batteries it is upto 80% for safe operations.
+        </Li>
+        
+        <Li><h6> Battery Efficiency </h6>
+            <p>
+                The battery efficiency is the ratio of the energy retrieved from the battery, to the energy provided to the battery, when coming back to the same SOC (State of Charge) state.
+            </p>
+        </Li>
+        <Li><h6> Battery Type </h6>
+            <p>
+                Three types of batteries are considered here cost calculation.
+                <ul>
+                    <li><b>Flooded Lead Acid:</b> Flooded lead-acid batteries contain an electrolyte that is free to move around in the battery encasement. When charged, the battery acid and lead plates react to store electricity. They are the most cost effective and longest lasting of the lead-acid batteries. it will only reach its potential lifespan if they are maintained properly. The levels must be checked monthly and topped off with distilled water to ensure the longest possible lifespan. Also, flooded lead-acid batteries release toxic hydrogen gas when charging. They need to be enclosed and vented to the outside to prevent this gas from being trapped and creating a hazardous environment.</li>
+                    <li> <b>VRLA AGM:</b> AGM (Absorbent Glass Mat) batteries are the most popular VRLA (valve regulated lead-acid) battery because they can work in a wide range of conditions. The electrolyte is suspended in a thin fiberglass mat that is situated between the lead plates. This allows the battery to be resistant to vibration, which makes them a great choice for mobile applications. They are more expensive than flooded lead-acid batteries, and they do not last quite as long. But for that extra price, you get the luxury of not having to maintain the batteries or deal with as much gas that is released during the charging phase.</li>
+                    <li><b>Llithium-ion:</b> Llithium-ion (Li-ion) battery is an advanced battery technology that uses lithium ions as a key component of its electrochemistry. Li-ion batteries can use a number of different materials as electrodes. It has several advantages like high energy density, low maintenance and higher efficiency and depth of discharge but initial installation is much higher than lead acid batteries.</li>
+                </ul>
+            </p>
+        </Li>
+        <Li><h6> Required ESS Capacity </h6>
+            <p>
+                It is the required energy storage system capacity based on desing power capacity, operation hours, battery depth of discharge and battery efficiency.
+            </p>
+        </Li>
+    </ol>
+</body>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Fahad Bin Alam">
+    <title>Solar Powered Energy Storage System Cost Estimation</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html">Solar Powered Energy Storage System Cost Estimation</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                <a class="nav-link" href="definition.html">Definitions</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="instruction.html">Instructions</a>
+                </li>         
+            </ul>
+        </div>
+    </nav>
+    <br>
+
+    <h5 class="headlines">User Instructions</h5>
+    <div>
+    <ul class="list">
+        <li><b>Design Power Capacity:</b> Provide a numerical value. and its unit is kilowatt. </li>
+        <li><b>Operation hour:</b> Provide a numerical value between <b>0-24</b>. and its unit is hours. </li>
+        <li><b>Depth of Discharge:</b> Provide a numerical value between <b>0-100</b>. It is in percentage. </li>
+        <li><b>Battery Efficiency:</b> Provide a numerical value between <b>0-100</b>. It is in percentage. </li>
+        <li><b>Battery Type:</b> Choose from different types of batteries from the dropdown option list. Options provide cost per kilowatt-hour for the furthur calculations. </li>
+        <li><b>State:</b> Choose from different states from the dropdown option list. This will provide state wise cost. </li>
+        <br>
+        Click the <strong>Click to Calculate</strong> button for getting the cost estimation.
+        <br>
+        <br>
+        <li><b>Required ESS Capacity:</b> Energy Storage System capacity is calculated from the user input. Unit is Kilowatt-hours. The obtained value represent the required battery capacity for the project. </li>
+        <li><b>PV System Cost:</b> Photovotaic sytem cost is based on data obtained from EnergySage. It provides PV system cost including components like inverter, master power panel (MPP), grid interface panel (GPP), etc.</li>
+        <li><b>ESS Cost:</b> Energy storage system (ESS) cost is based on the required ESS capacity and the selected battery types. Cost varies from lead acid to lithium-ion batteries.</lithium-ion>
+
+
+        <br><br><br>
+
+        <i><b>Note:</b> If there is any error, please click the <strong>Refresh</strong> button.</i>
+    </div>
+    </ul>
+
+</body>    

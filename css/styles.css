@@ -1,0 +1,37 @@
+/* Home Page */
+.navbar-brand{
+    padding: 15px 0;
+}
+.headlines{
+    padding: 20px 0px 20px 20px;
+}
+.input-group{
+    padding: 0px 20px 0px 20px;
+}
+.output{
+    padding: 0 20%;
+}
+input, output{
+    text-align: center;
+}
+#calculate-button{
+    text-align: center;
+    padding-left: 40%;
+}
+#my-output-pv{
+    display: none;
+}
+#my-output-state{
+    display: none;
+}
+
+/* Page: Defitions */
+h6{
+    font-weight: bold;
+}
+.list{
+    padding: 0 5% 0 5%;
+    text-align: justify;
+}
+
+/* Page: Instructions */
