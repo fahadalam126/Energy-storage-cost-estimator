@@ -28,9 +28,9 @@ function calculation(){
     var pvCost = num1*num6*1000;
 
     //Setting Value
-    document.getElementById("my-output").value = "$" + res;
-    document.getElementById("my-output-ess").value = "$"+ batteryCost;
-    document.getElementById("my-output-pvcomponent").value = "$"+ pvCost;
+    document.getElementById("my-output").value = res + " KWh";
+    document.getElementById("my-output-ess").value = batteryCost + " USD" ;
+    document.getElementById("my-output-pvcomponent").value =  pvCost + " USD";
 
 }
 
