@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="Fahad Bin Alam">
-    <title>Solar Powered Energy Storage System Cost Estimation</title>
+    <title>Energy Storage System Cost Estimator</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/styles.css">
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
@@ -17,7 +17,7 @@
 <body>
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand" href="#">Solar Powered Energy Storage System Cost Estimation</a>
+    <a class="navbar-brand" href="#">Energy Storage System Cost Estimator</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
@@ -66,9 +66,8 @@
     </div>
     <select class="custom-select" id="inputGroupSelect01" onchange="batteryTypeSelection()">
       <option selected>Choose...</option>
-      <option value="131">Flooded Lead Acid</option>
-      <option value="221">VRLA AGM</option>
-      <option value="530">Lithium Ion (NMC)</option>
+      <option value="549">Lead Acid</option>
+      <option value="469">Lithium Ion</option>
     </select>
 
 
@@ -148,21 +147,21 @@
 
   <div class="input-group mb-3 output">
     <div class="input-group-prepend">
-      <span class="input-group-text" id="inputGroup-sizing-default">Required ESS Capacity </span>
+      <span class="input-group-text" id="inputGroup-sizing-default">Required ESS Capacity (kWh) </span>
     </div>
     <output id="my-output" name="result" type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
   </div>
 
   <div class="input-group mb-3 output">
     <div class="input-group-prepend">
-      <span class="input-group-text" id="inputGroup-sizing-default">PV System Cost (including Components)</span>
+      <span class="input-group-text" id="inputGroup-sizing-default">PV System Cost (including Components) (USD) </span>
     </div>
     <output id="my-output-pvcomponent" type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
   </div>
 
   <div class="input-group mb-3 output">
     <div class="input-group-prepend">
-      <span class="input-group-text" id="inputGroup-sizing-default">Battery ESS Cost (Initial Installment)</span>
+      <span class="input-group-text" id="inputGroup-sizing-default">Battery ESS Cost (Initial Installment) (USD)</span>
     </div>
     <output id="my-output-ess" type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
   </div>
@@ -179,6 +178,7 @@
             <h5 class="form-group">Data Source</h5>
             <ol type="1">
                 <li> <a href="https://www.nrel.gov/"> National Renewable Energy Laboratory (NREL)</a></li>
+                <li> <a href="https://energystorage.pnnl.gov/pdf/PNNL-28866.pdf">Energy Storage Technology and Cost Characterization Report</a> </li>
                 <li> <a href="https://www.energysage.com/">EnergySage</a></li>
                 <li>Off Grid Solar: A handbook for Photovoltaics with Lead-Acid or Lithium-Ion batteries (2017)</li>
             </ol>  
